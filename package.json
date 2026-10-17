@@ -1,0 +1,42 @@
+{
+  "name": "armurerie",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@paper-design/shaders-react": "^0.0.81",
+    "@radix-ui/react-dialog": "^1.1.23",
+    "@radix-ui/react-tabs": "^1.1.21",
+    "@react-three/fiber": "^9.8.1",
+    "@shadergradient/react": "^2.4.20",
+    "@supabase/supabase-js": "^2.117.2",
+    "@tailwindcss/vite": "^4.3.3",
+    "camera-controls": "^3.1.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^13.4.0",
+    "html2canvas-pro": "^2.5.0",
+    "lucide-react": "^1.47.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss": "^4.3.3",
+    "three": "^0.186.1",
+    "three-stdlib": "^2.36.1",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.6",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}
